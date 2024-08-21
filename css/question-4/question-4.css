@@ -1,0 +1,18 @@
+:root {
+  --main-color: #3498db;
+  --secondary-color: #2ecc71;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: var(--secondary-color);
+  margin: 20px;
+}
+
+.box-two {
+  width: 500px;
+  height: 500px;
+  background-color: var(--main-color);
+  margin: 20px;
+}

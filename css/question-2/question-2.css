@@ -1,0 +1,19 @@
+p::before {
+  content: "Before ";
+  color: green;
+  font-weight: bold;
+}
+
+p::after {
+  content: " After";
+  color: orange;
+  font-weight: bold;
+}
+
+p::first-letter {
+  color: red;
+}
+
+p::first-line {
+  color: yellow;
+}
